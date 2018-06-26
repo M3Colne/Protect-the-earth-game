@@ -28,27 +28,39 @@ private:
 	/********************************/
 	/*  User Variables              */
 	Player player;
+
 	Lasers laserR;
 	Lasers laserL;
 	Lasers laserD;
 	Lasers laserU;
+
 	Enemy enemyR;
 	Enemy enemyL;
 	Enemy enemyD;
 	Enemy enemyU;
+
 	bool StartGame = false;
+
 	bool laserRF = false;
 	bool laserLF = false;
 	bool laserDF = false;
 	bool laserUF = false;
+
 	bool waitToFire = false;
+
 	bool enemyRS = false;
 	bool enemyLS = false;
 	bool enemyDS = false;
 	bool enemyUS = false;
+
 	bool waitToSpawnR = false;
 	bool waitToSpawnL = false;
 	bool waitToSpawnD = false;
 	bool waitToSpawnU = false;
+
+	bool collisionR = false;
+	bool collisionL = false;
+	bool collisionD = false;
+	bool collisionU = false;
 	/********************************/
 };
