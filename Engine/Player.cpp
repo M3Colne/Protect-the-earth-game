@@ -16481,13 +16481,3 @@ void Player::Draw(Graphics & gfx) const
 	gfx.PutPixel(84 + x, 154 + y, 107, 107, 107);
 	gfx.PutPixel(85 + x, 154 + y, 107, 107, 107);
 }
-
-int Player::GetWidth() const
-{
-	return Width;
-}
-
-int Player::GetHeight() const
-{
-	return Height;
-}

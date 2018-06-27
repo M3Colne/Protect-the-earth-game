@@ -13,8 +13,8 @@ public:
 	//Variables
 	int x;
 	int y;
-	static constexpr int Width = 30;
-	static constexpr int Height = 30;
+	static constexpr int Width = 20;
+	static constexpr int Height = 20;
 	static constexpr int Velocity = 6;
 	//Variables
 private:
