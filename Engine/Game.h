@@ -62,5 +62,10 @@ private:
 	bool collisionL = false;
 	bool collisionD = false;
 	bool collisionU = false;
+	
+	bool inhibitR = false;
+	bool inhibitL = false;
+	bool inhibitD = false;
+	bool inhibitU = false;
 	/********************************/
 };
