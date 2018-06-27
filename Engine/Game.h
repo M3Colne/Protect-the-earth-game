@@ -27,30 +27,26 @@ private:
 	Graphics gfx;
 	/********************************/
 	/*  User Variables              */
-
-	//Game
-	bool StartGame = false;
-	//Game
-
-	//Player
 	Player player;
-	//Player
 
-	//Laser
-	Lasers laser;
+	Lasers laserR;
+	Lasers laserL;
+	Lasers laserD;
+	Lasers laserU;
 
-	bool laserF = false;
-
-	bool waitToFire = false;
-
-	bool inhibit = false;
-	//Laser
-
-	//Enemy
 	Enemy enemyR;
 	Enemy enemyL;
 	Enemy enemyD;
 	Enemy enemyU;
+
+	bool StartGame = false;
+
+	bool laserRF = false;
+	bool laserLF = false;
+	bool laserDF = false;
+	bool laserUF = false;
+
+	bool waitToFire = false;
 
 	bool enemyRS = false;
 	bool enemyLS = false;
@@ -66,6 +62,5 @@ private:
 	bool collisionL = false;
 	bool collisionD = false;
 	bool collisionU = false;
-	//Enemy
 	/********************************/
 };

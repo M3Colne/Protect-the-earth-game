@@ -15,7 +15,7 @@ void Enemy::Draw(Graphics & gfx)
 	{
 		for (int gfxy = y; gfxy < y + Height; ++gfxy)
 		{
-			gfx.PutPixel(gfxx, gfxy, 230, 92, 0);
+			gfx.PutPixel(gfxx, gfxy, 255, 255, 255);
 		}
 	}
 }
