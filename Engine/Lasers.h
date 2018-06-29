@@ -14,7 +14,7 @@ public:
 	//Variables
 	int x;
 	int y;
-	static constexpr int Velocity = 15;
+	static constexpr int Velocity = 18;
 	static constexpr int Width = 5;
 	static constexpr int Height = 5;
 	//Variables
