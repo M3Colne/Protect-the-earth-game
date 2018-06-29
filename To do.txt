@@ -1,3 +1,5 @@
+1.Schimba culoare meteoritilor
 2.Fa ca meteoriti sa se spawneze singuri,sa se spawneze random,si un spawnrate de 1 secunda sau 1/2 secunda
 3.Scorule e usor de facut (int score = 0; daca un meteorite este distrus atunci adauga 1 punct sau ceva gen , cred ca face Chili ceva asemanator in homework13
+4.Pune gameover cand un meteorite atinge playerul
 5.GATA NICE :D

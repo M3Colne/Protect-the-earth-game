@@ -40,7 +40,6 @@ private:
 	Enemy enemyU;
 
 	bool StartGame = false;
-	bool GameOver = false;
 
 	bool laserRF = false;
 	bool laserLF = false;
