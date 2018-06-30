@@ -6,7 +6,6 @@
 #include "Player.h"
 #include "Lasers.h"
 #include "Enemys.h"
-#include "FrameTimer.h"
 
 class Game
 {
@@ -68,7 +67,5 @@ private:
 	bool inhibitL = false;
 	bool inhibitD = false;
 	bool inhibitU = false;
-
-	FrameTimer ft;
 	/********************************/
 };
