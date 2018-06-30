@@ -27,6 +27,9 @@ private:
 	Graphics gfx;
 	/********************************/
 	/*  User Variables              */
+	int score = 0;
+	int color = 255;
+
 	Player player;
 
 	Lasers laserR;
@@ -40,6 +43,7 @@ private:
 	Enemy enemyU;
 
 	bool StartGame = false;
+	bool GameOver = false;
 
 	bool laserRF = false;
 	bool laserLF = false;
