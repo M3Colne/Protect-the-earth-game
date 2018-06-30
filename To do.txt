@@ -1,1 +1,11 @@
-4.Pune gameover cand un meteorite atinge playerul
+4.Pune gameover cand un meteorite atinge playerul\
+
+
+	laserR(Graphics::ScreenWidth / 2 + Player::Width / 2 - 6, Graphics::ScreenHeight / 2 - 6),
+	laserL(Graphics::ScreenWidth / 2 - Player::Width / 2 + 6, Graphics::ScreenHeight / 2 - 6),
+	laserD(Graphics::ScreenWidth / 2 - 6, Graphics::ScreenHeight / 2 + Player::Height / 2 - 6),
+	laserU(Graphics::ScreenWidth / 2 - 6, Graphics::ScreenHeight / 2 - Player::Height / 2 + 6),
+	enemyR(Graphics::ScreenWidth - 30, Graphics::ScreenHeight / 2 - 15),
+	enemyL(0, Graphics::ScreenHeight / 2 - 15),
+	enemyD(Graphics::ScreenWidth / 2 - 15, Graphics::ScreenHeight - 30),
+	enemyU(Graphics::ScreenWidth / 2 - 15, 0)

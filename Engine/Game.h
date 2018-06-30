@@ -22,6 +22,7 @@ private:
 	/*  User Functions              */
 	void DrawStartMenu(int x, int y);
 	void DrawGameOver(int x, int y);
+	void DrawGameWon(int x, int y);
 	/********************************/
 private:
 	MainWindow& wnd;
@@ -47,6 +48,7 @@ private:
 
 	bool StartGame = false;
 	bool GameOver = false;
+	bool GameWon = false;
 
 	bool laserRF = false;
 	bool laserLF = false;
