@@ -6,6 +6,7 @@
 #include "Player.h"
 #include "Lasers.h"
 #include "Enemys.h"
+#include "FrameTimer.h"
 
 class Game
 {
@@ -41,6 +42,8 @@ private:
 	Enemy enemyL;
 	Enemy enemyD;
 	Enemy enemyU;
+
+	FrameTimer ft;
 
 	bool StartGame = false;
 	bool GameOver = false;
