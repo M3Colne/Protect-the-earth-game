@@ -74,5 +74,7 @@ private:
 	bool inhibitL = false;
 	bool inhibitD = false;
 	bool inhibitU = false;
+
+	float time_to_spawn_enemy = 0.000f;
 	/********************************/
 };
