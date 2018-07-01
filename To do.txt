@@ -9,3 +9,7 @@
 	enemyL(0, Graphics::ScreenHeight / 2 - 15),
 	enemyD(Graphics::ScreenWidth / 2 - 15, Graphics::ScreenHeight - 30),
 	enemyU(Graphics::ScreenWidth / 2 - 15, 0)
+
+
+
+FA ACEL MOTHER FRICKING GAME OVER SI GATA PLS!!!!
